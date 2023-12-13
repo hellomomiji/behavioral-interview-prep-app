@@ -41,11 +41,15 @@ git clone {this github repo url}
 ```
 npm install
 ```
-3. Start the server
+3. run build
+```
+npm run build
+```
+4. Start the server
 ```
 npm start
 ```
-4. Open the app in your browser
+5. Open the app in your browser
 ```
 http://localhost:3000/
 ```
