@@ -1,0 +1,89 @@
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+html, body { 
+  height: 100%;
+  margin: 0;
+  background-color: #F5EFE6;
+  font-family: 'Montserrat', sans-serif;
+  color: #4D4D4D;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #4D4D4D;
+}
+
+button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  width: 80%;  
+
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.login-username {
+  margin: 1rem;
+  height: 2rem;
+}
+
+.login-button {
+  height: 100%;
+  margin: auto 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: #A9B388;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #5F6F52;
+}
+
+.status {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: darkred;
+}
+
