@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://behavioral-interview-prep-app.vercel.app',
+        target: process.env.PORT || 'http://localhost:3000',
       },
     },
   },
